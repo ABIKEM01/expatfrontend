@@ -7,13 +7,12 @@ const API_BASEURL = 'https://expatbackend.onrender.com/api/v1'
 
 export let BASE_URL= ''
 
-
 const env = process.env.NODE_ENV
 if(env == "development"){
     BASE_URL = 'http://localhost:3000'
 }
 else if (env == "production"){
-    BASE_URL = 'https://cityshoppa-lemon.vercel.app'
+    BASE_URL = 'https://expatswap.vercel.app/'
 }
 
 
